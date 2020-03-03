@@ -3,7 +3,7 @@
    "formatVersion" : 1,
    "names" : {
       "type" : "Hash",
-      "url" : "names/"
+      "url" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/names/"
    },
    "tracks" : [
       {
