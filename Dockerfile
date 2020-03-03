@@ -14,7 +14,7 @@
 FROM gmod/jbrowse-buildenv:latest as build
 
 RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
-RUN git clone --single-branch --branch release-3.0.0 https://github.com/scottcain/jbrowse_genomes_of_interest.git 
+RUN git clone https://github.com/scottcain/jbrowse_genomes_of_interest.git 
 RUN git clone https://github.com/bhofmei/jbplugin-screenshot.git
 RUN git clone https://github.com/scottcain/colorbycds.git
 RUN git clone https://github.com/twsaari/FeatureSequence.git
