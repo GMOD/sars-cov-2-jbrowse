@@ -49,6 +49,9 @@
          "style" : {
             "className" : "feature"
          },
+         "metadata" : {
+            "about" : "Primers and probes from https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html. The CDC makes quite clear that these primers should not be used for diagnostic purposes."
+         },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/CDC primers (NOT FOR DIAGNOSTIC USE)/{refseq}/trackData.jsonz"
