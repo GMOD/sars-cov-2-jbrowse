@@ -40,6 +40,18 @@
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/CDS/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "CDC primers (NOT FOR DIAGNOSTIC USE)",
+         "label" : "CDC primers (NOT FOR DIAGNOSTIC USE)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/CDC primers (NOT FOR DIAGNOSTIC USE)/{refseq}/trackData.jsonz"
       }
    ]
 }
