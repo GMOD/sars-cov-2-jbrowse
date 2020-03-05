@@ -21,6 +21,10 @@
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/seq/{refseq_dirpath}/{refseq}-"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -35,6 +39,10 @@
          "key" : "SRR10903401"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -49,6 +57,10 @@
          "key" : "SRR10903402"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -63,6 +75,10 @@
          "key" : "SRR10971381"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -77,6 +93,10 @@
          "key" : "SRR11140744"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -91,6 +111,10 @@
          "key" : "SRR11140746"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -105,6 +129,10 @@
          "key" : "SRR11140748"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -119,6 +147,10 @@
          "key" : "SRR11140750"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,
@@ -133,6 +165,10 @@
          "key" : "SRR11241254"
       },
       {
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "style" : {
+            "height" : 8
+         },
          "maxHeight" : 3000,
          "unsafeMouseover" : true,
          "unsafePopup" : true,

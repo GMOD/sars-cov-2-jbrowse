@@ -18,6 +18,7 @@ RUN git clone https://github.com/scottcain/jbrowse_genomes_of_interest.git
 RUN git clone https://github.com/bhofmei/jbplugin-screenshot.git
 RUN git clone https://github.com/scottcain/colorbycds.git
 RUN git clone https://github.com/twsaari/FeatureSequence.git
+RUN git clone --single-branch --branch agr-release-3.0.0 https://github.com/WormBase/website-genome-browsers.git
 
 #no longer need to fetch vcf files
 #WORKDIR /agr_jbrowse_config/scripts
@@ -31,7 +32,8 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     cp -r /jbrowse_genomes_of_interest/jbrowse/data /usr/share/nginx/html/jbrowse && \
     cp -r /jbplugin-screenshot /usr/share/nginx/html/jbrowse/plugins/ScreenShotPlugin && \
     cp -r /colorbycds /usr/share/nginx/html/jbrowse/plugins/ColorByCDS && \
-    cp -r /FeatureSequence /usr/share/nginx/html/jbrowse/plugins/FeatureSequence 
+    cp -r /FeatureSequence /usr/share/nginx/html/jbrowse/plugins/FeatureSequence && \
+    cp -r /website-genome-browsers/jbrowse/jbrowse/plugins/wormbase-glyphs /usr/share/nginx/html/jbrowse/plugins
 
 WORKDIR /usr/share/nginx/html/jbrowse
 
