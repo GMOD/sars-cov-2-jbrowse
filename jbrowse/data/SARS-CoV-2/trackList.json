@@ -27,7 +27,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
-            "color" : "darkpink",
+            "color" : "deeppink",
             "height" : 5
          },
          "metadata" : {
