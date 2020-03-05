@@ -29,9 +29,9 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     cp /jbrowse/.htaccess /usr/share/nginx/html/jbrowse/.htaccess && \
     cp /jbrowse_genomes_of_interest/jbrowse/jbrowse.conf /usr/share/nginx/html/jbrowse && \
     cp -r /jbrowse_genomes_of_interest/jbrowse/data /usr/share/nginx/html/jbrowse && \
-    cp -r /jbplugin-screenshot /jbrowse/plugins/ScreenShotPlugin && \
-    cp -r /colorbycds /jbrowse/plugins/ColorByCDS && \
-    cp -r /FeatureSequence /jbrowse/plugins/FeatureSequence 
+    cp -r /jbplugin-screenshot /usr/share/nginx/html/jbrowse/plugins/ScreenShotPlugin && \
+    cp -r /colorbycds /usr/share/nginx/html/jbrowse/plugins/ColorByCDS && \
+    cp -r /FeatureSequence /usr/share/nginx/html/jbrowse/plugins/FeatureSequence 
 
 WORKDIR /usr/share/nginx/html/jbrowse
 
