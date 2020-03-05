@@ -27,11 +27,124 @@
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR10903401. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR10903401 Variants",
+         "label" : "SRR10903401",
          "type" : "CanvasVariants",
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "key" : "SRR10903401 Variants"
+         "category" : "Variants",
+         "key" : "SRR10903401"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR10903402. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR10903402",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903402.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR10903402"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR10971381. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR10971381",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10971381.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR10971381"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11140744. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR11140744",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140744.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR11140744"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11140746. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR11140746",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140746.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR11140746"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11140748. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR11140748",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140748.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR11140748"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11140750. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR11140750",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140750.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR11140750"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11241254. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR11241254",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241254.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR11241254"
+      },
+      {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11241255. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR11241255",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241255.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "category" : "Variants",
+         "key" : "SRR11241255"
       },
       {
          "compress" : 1,
