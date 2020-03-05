@@ -21,6 +21,19 @@
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/seq/{refseq_dirpath}/{refseq}-"
       },
       {
+         "maxHeight" : 3000,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR10903401. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "label" : "SRR10903401 Variants",
+         "type" : "CanvasVariants",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "key" : "SRR10903401 Variants"
+      },
+      {
          "compress" : 1,
          "key" : "Genes",
          "label" : "Genes",
