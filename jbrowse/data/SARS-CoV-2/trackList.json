@@ -26,7 +26,9 @@
          "label" : "Genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
-            "className" : "feature"
+            "className" : "feature",
+            "color" : "lightpink",
+            "height" : 5
          },
          "metadata" : {
              "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
