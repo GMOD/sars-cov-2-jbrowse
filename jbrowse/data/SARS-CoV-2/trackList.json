@@ -29,6 +29,9 @@
   "glyph": "MAFViewer/View/FeatureGlyph/MAF",
   "maxFeatureGlyphExpansion": 500,
   "maxHeight": 15000,
+  "metadata" : {
+     "about" : "Multiple alignment data from https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Wuhan%20seafood%20market%20pneumonia%20virus,%20taxid:2697049 and filtering for complete genomes, doing an alignment and downloading the result.  Thanks to Colin Diesh for putting this together."
+  },
   "style": {
     "showLabels": false,
     "showTooltips": true,
