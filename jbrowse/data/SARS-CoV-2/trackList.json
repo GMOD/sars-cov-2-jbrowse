@@ -44,7 +44,7 @@
   "labelWidth": 75,
   "showTooltips": true,
   "showLabels": true,
-  "urlTemplate": "http://s3.amazonaws.com/jbrowse.org/demos/sars-cov2/data/out.bed.gz",
+  "urlTemplate": "https://s3.amazonaws.com/jbrowse.org/demos/sars-cov2/data/out.bed.gz",
   "type": "MAFViewer/View/Track/MAF",
   "storeClass": "MAFViewer/Store/SeqFeature/MAFTabix",
   "samples": [
