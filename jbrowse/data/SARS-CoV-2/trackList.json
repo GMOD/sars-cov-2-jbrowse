@@ -12,272 +12,269 @@
          "compress" : 1,
          "key" : "Reference sequence",
          "label" : "DNA",
+         "metadata" : {
+            "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
+         },
          "seqType" : "dna",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "type" : "SequenceTrack",
-         "metadata" : {
-             "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
-         },
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/seq/{refseq_dirpath}/{refseq}-"
       },
-{
-  "maxFeatureSizeForUnderlyingRefSeq": 250000,
-  "subfeatureDetailLevel": 2,
-  "maxFeatureScreenDensity": 0.5,
-  "enableCollapsedMouseover": false,
-  "disableCollapsedClick": false,
-  "glyph": "MAFViewer/View/FeatureGlyph/MAF",
-  "maxFeatureGlyphExpansion": 500,
-  "maxHeight": 15000,
-  "metadata" : {
-     "about" : "Multiple alignment data from https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Wuhan%20seafood%20market%20pneumonia%20virus,%20taxid:2697049 and filtering for complete genomes, doing an alignment and downloading the result.  Thanks to Colin Diesh for putting this together."
-  },
-  "style": {
-    "showLabels": false,
-    "showTooltips": true,
-    "label": "name,id",
-    "description": "note, description",
-    "height": 12,
-    "mismatchColor": "blue",
-    "matchColor": "#0001",
-    "gapColor": "red",
-    "mismatchFont": "bold 10px Courier New,monospace"
-  },
-  "displayMode": "normal",
-  "labelWidth": 75,
-  "showTooltips": true,
-  "showLabels": true,
-  "urlTemplate": "https://s3.amazonaws.com/jbrowse.org/demos/sars-cov2/data/out.bed.gz",
-  "type": "MAFViewer/View/Track/MAF",
-  "storeClass": "MAFViewer/Store/SeqFeature/MAFTabix",
-  "samples": [
-    "NC_045512",
-    "gb|MT039890",
-    "gb|MN988713",
-    "gb|MT093571",
-    "gb|MT019530",
-    "gb|MT044257",
-    "gb|MN994467",
-    "gb|MT039888",
-    "gb|MT106054",
-    "gb|MT123291",
-    "gb|MT126808",
-    "gb|MT027063",
-    "gb|MT027062",
-    "gb|MT007544",
-    "gb|MT019529",
-    "gb|MN996531",
-    "gb|MT123290",
-    "gb|MN996529",
-    "gb|MT066176",
-    "gb|MN994468",
-    "gb|MT027064",
-    "gb|MN996527",
-    "gb|MT072688",
-    "gb|MT093631",
-    "gb|MT039887",
-    "gb|MT019533",
-    "gb|MT106053",
-    "gb|MT019531",
-    "gb|MT044258",
-    "gb|MT039873",
-    "gb|MN996530",
-    "gb|MN988669",
-    "gb|MN988668",
-    "gb|MN908947",
-    "gb|MN996528",
-    "gb|MT019532",
-    "gb|MT118835",
-    "gb|MT049951",
-    "gb|MT135041",
-    "gb|MT135042",
-    "gb|MT135044",
-    "gb|MT135043",
-    "gb|MN975262",
-    "gb|MT106052",
-    "gb|MN985325",
-    "gb|MT020880",
-    "gb|MT020881",
-    "gb|MT066175",
-    "gb|MN997409",
-    "gb|MN938384"
-  ],
-  "label": "MAF"
-},
       {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "disableCollapsedClick" : false,
+         "displayMode" : "normal",
+         "enableCollapsedMouseover" : false,
+         "glyph" : "MAFViewer/View/FeatureGlyph/MAF",
+         "label" : "MAF",
+         "labelWidth" : 75,
+         "maxFeatureGlyphExpansion" : 500,
+         "maxFeatureScreenDensity" : 0.5,
+         "maxFeatureSizeForUnderlyingRefSeq" : 250000,
+         "maxHeight" : 15000,
+         "samples" : [
+            "NC_045512",
+            "gb|MT039890",
+            "gb|MN988713",
+            "gb|MT093571",
+            "gb|MT019530",
+            "gb|MT044257",
+            "gb|MN994467",
+            "gb|MT039888",
+            "gb|MT106054",
+            "gb|MT123291",
+            "gb|MT126808",
+            "gb|MT027063",
+            "gb|MT027062",
+            "gb|MT007544",
+            "gb|MT019529",
+            "gb|MN996531",
+            "gb|MT123290",
+            "gb|MN996529",
+            "gb|MT066176",
+            "gb|MN994468",
+            "gb|MT027064",
+            "gb|MN996527",
+            "gb|MT072688",
+            "gb|MT093631",
+            "gb|MT039887",
+            "gb|MT019533",
+            "gb|MT106053",
+            "gb|MT019531",
+            "gb|MT044258",
+            "gb|MT039873",
+            "gb|MN996530",
+            "gb|MN988669",
+            "gb|MN988668",
+            "gb|MN908947",
+            "gb|MN996528",
+            "gb|MT019532",
+            "gb|MT118835",
+            "gb|MT049951",
+            "gb|MT135041",
+            "gb|MT135042",
+            "gb|MT135044",
+            "gb|MT135043",
+            "gb|MN975262",
+            "gb|MT106052",
+            "gb|MN985325",
+            "gb|MT020880",
+            "gb|MT020881",
+            "gb|MT066175",
+            "gb|MN997409",
+            "gb|MN938384"
+         ],
+         "showLabels" : true,
+         "showTooltips" : true,
+         "storeClass" : "MAFViewer/Store/SeqFeature/MAFTabix",
          "style" : {
-            "height" : 8
+            "description" : "note, description",
+            "gapColor" : "red",
+            "height" : 12,
+            "label" : "name,id",
+            "matchColor" : "#0001",
+            "mismatchColor" : "blue",
+            "mismatchFont" : "bold 10px Courier New,monospace",
+            "showLabels" : false,
+            "showTooltips" : true
          },
+         "subfeatureDetailLevel" : 2,
+         "type" : "MAFViewer/View/Track/MAF",
+         "urlTemplate" : "https://s3.amazonaws.com/jbrowse.org/demos/sars-cov2/data/out.bed.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR10903401",
+         "label" : "SRR10903401",
          "maxHeight" : 3000,
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR10903401. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR10903401",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR10903401"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR10903402",
+         "label" : "SRR10903402",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR10903402. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR10903402",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903402.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR10903402"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903402.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR10971381",
+         "label" : "SRR10971381",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR10971381. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR10971381",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10971381.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR10971381"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10971381.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140744",
+         "label" : "SRR11140744",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR11140744. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR11140744",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140744.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR11140744"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140744.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140746",
+         "label" : "SRR11140746",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR11140746. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR11140746",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140746.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR11140746"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140746.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140748",
+         "label" : "SRR11140748",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR11140748. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR11140748",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140748.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR11140748"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140748.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11140750",
+         "label" : "SRR11140750",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR11140750. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR11140750",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140750.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR11140750"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140750.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11241254",
+         "label" : "SRR11241254",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR11241254. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR11241254",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241254.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR11241254"
-      },
-      {
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "style" : {
             "height" : 8
          },
-         "maxHeight" : 3000,
+         "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241254.vcf.gz"
+      },
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11241255",
+         "label" : "SRR11241255",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "Variation from the reference sequence for SRR11241255. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
          },
-         "label" : "SRR11241255",
-         "type" : "CanvasVariants",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241255.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "category" : "Variants",
-         "key" : "SRR11241255"
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241255.vcf.gz"
       },
       {
          "compress" : 1,
          "key" : "Genes",
          "label" : "Genes",
+         "metadata" : {
+            "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
+         },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
             "color" : "deeppink",
             "height" : 5
-         },
-         "metadata" : {
-             "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
@@ -287,13 +284,13 @@
          "compress" : 1,
          "key" : "CDS",
          "label" : "CDS",
+         "metadata" : {
+            "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.  The color scheme for CDS features attempts to mimic the colors used at NextStrain: https://nextstrain.org/ncov?gmin=27585"
+         },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
-            "color"     : "function(f) {var name =f.get('name'); var len = f.get('length'); if(len >13000 || name=='YP_009725295.1') {return '#DA994B';} if (name=='YP_009724389.1') {return '#ADBC61';} if (name=='YP_009724390.1' ||name=='YP_009724392.1' ) {return '#D2AE52';} if(name=='YP_009724391.1') {return '#CE5035';} if (name=='YP_009724393.1') {return '#6295B7';} if (name=='YP_009724394.1') {return '#C2B959';} if (name=='YP_009724395.1') {return '#84B586';} if (name=='YP_009724396.1') {return '#72A89E';} if (name=='YP_009724397.2') {return '#D77741';} if (name=='YP_009725255.1') {return '#98BB70';} return 'darkpink'; }"
-         },
-         "metadata" : {
-             "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.  The color scheme for CDS features attempts to mimic the colors used at NextStrain: https://nextstrain.org/ncov?gmin=27585"
+            "color" : "function(f) {var name =f.get('name'); var len = f.get('length'); if(len >13000 || name=='YP_009725295.1') {return '#DA994B';} if (name=='YP_009724389.1') {return '#ADBC61';} if (name=='YP_009724390.1' ||name=='YP_009724392.1' ) {return '#D2AE52';} if(name=='YP_009724391.1') {return '#CE5035';} if (name=='YP_009724393.1') {return '#6295B7';} if (name=='YP_009724394.1') {return '#C2B959';} if (name=='YP_009724395.1') {return '#84B586';} if (name=='YP_009724396.1') {return '#72A89E';} if (name=='YP_009724397.2') {return '#D77741';} if (name=='YP_009725255.1') {return '#98BB70';} return 'darkpink'; }"
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
@@ -303,16 +300,31 @@
          "compress" : 1,
          "key" : "CDC primers (NOT FOR DIAGNOSTIC USE)",
          "label" : "CDC primers (NOT FOR DIAGNOSTIC USE)",
+         "metadata" : {
+            "about" : "Primers and probes from https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html. The CDC makes quite clear that these primers should not be used for diagnostic purposes."
+         },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature"
          },
-         "metadata" : {
-            "about" : "Primers and probes from https://www.cdc.gov/coronavirus/2019-ncov/lab/rt-pcr-panel-primer-probes.html. The CDC makes quite clear that these primers should not be used for diagnostic purposes."
-         },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/CDC primers (NOT FOR DIAGNOSTIC USE)/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "PCR Primers suggested by Jung et. al.",
+         "label" : "PCR Primers suggested by Jung et. al.",
+	 "metadata" : {
+            "about" : "Primers and probes suggested by Jung et. al.  See https://www.biorxiv.org/content/10.1101/2020.02.25.964775v1.full.pdf for more information."
+	 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/PCR Primers suggested by Jung et. al./{refseq}/trackData.jsonz"
       }
    ]
 }
