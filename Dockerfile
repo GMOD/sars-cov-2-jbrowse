@@ -14,7 +14,7 @@
 FROM gmod/jbrowse-buildenv:latest as build
 
 RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
-RUN git clone https://github.com/scottcain/jbrowse_genomes_of_interest.git 
+RUN git clone https://github.com/gmod/sars-cov-2-jbrowse.git 
 RUN git clone https://github.com/bhofmei/jbplugin-screenshot.git
 RUN git clone https://github.com/scottcain/colorbycds.git
 RUN git clone https://github.com/twsaari/FeatureSequence.git
@@ -28,9 +28,10 @@ RUN git clone --single-branch --branch agr-release-3.0.0 https://github.com/Worm
 RUN mkdir /usr/share/nginx/html/jbrowse
 
 RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && cp -r /jbrowse/* /usr/share/nginx/html/jbrowse && \
+    cp sars-cov-2-jbrowse/index.html /usr/share/nginx/html/index.html && \
     cp /jbrowse/.htaccess /usr/share/nginx/html/jbrowse/.htaccess && \
-    cp /jbrowse_genomes_of_interest/jbrowse/jbrowse.conf /usr/share/nginx/html/jbrowse && \
-    cp -r /jbrowse_genomes_of_interest/jbrowse/data /usr/share/nginx/html/jbrowse && \
+    cp /sars-cov-2-jbrowse/jbrowse/jbrowse.conf /usr/share/nginx/html/jbrowse && \
+    cp -r /sars-cov-2-jbrowse/jbrowse/data /usr/share/nginx/html/jbrowse && \
     cp -r /jbplugin-screenshot /usr/share/nginx/html/jbrowse/plugins/ScreenShotPlugin && \
     cp -r /colorbycds /usr/share/nginx/html/jbrowse/plugins/ColorByCDS && \
     cp -r /FeatureSequence /usr/share/nginx/html/jbrowse/plugins/FeatureSequence && \
@@ -47,6 +48,7 @@ RUN ./setup.sh
 
 FROM nginx:latest as production
 
+COPY --from=build /usr/share/nginx/html/index.html /usr/share/nginx/html/index.html
 COPY --from=build /usr/share/nginx/html/jbrowse/dist /usr/share/nginx/html/jbrowse/dist
 COPY --from=build /usr/share/nginx/html/jbrowse/browser /usr/share/nginx/html/jbrowse/browser
 COPY --from=build /usr/share/nginx/html/jbrowse/css /usr/share/nginx/html/jbrowse/css
