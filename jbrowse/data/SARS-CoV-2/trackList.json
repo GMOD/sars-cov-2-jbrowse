@@ -118,7 +118,8 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.vcf.gz"
-      },
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -136,7 +137,8 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903402.vcf.gz"
-      },
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -154,7 +156,160 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10971381.vcf.gz"
-      },
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059940",
+         "label" : "SRR11059940",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059940. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059940.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059941",
+         "label" : "SRR11059941",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059941. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059941.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059942",
+         "label" : "SRR11059942",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059942. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059942.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059943",
+         "label" : "SRR11059943",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059943. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059943.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059944",
+         "label" : "SRR11059944",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059944. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059944.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059945",
+         "label" : "SRR11059945",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059945. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059945.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059946",
+         "label" : "SRR11059946",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059946. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059946.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11059947",
+         "label" : "SRR11059947",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11059947. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059947.vcf.gz"
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -172,7 +327,8 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140744.vcf.gz"
-      },
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -190,7 +346,8 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140746.vcf.gz"
-      },
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -208,7 +365,8 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140748.vcf.gz"
-      },
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -226,7 +384,27 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140750.vcf.gz"
-      },
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11177792",
+         "label" : "SRR11177792",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11177792. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11177792.vcf.gz"
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -244,7 +422,8 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241254.vcf.gz"
-      },
+      },"
+    
       {
          "category" : "Variants",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
@@ -262,7 +441,235 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241255.vcf.gz"
-      },
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247075",
+         "label" : "SRR11247075",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11247075. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247075.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247076",
+         "label" : "SRR11247076",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11247076. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247076.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247077",
+         "label" : "SRR11247077",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11247077. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247077.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11247078",
+         "label" : "SRR11247078",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11247078. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247078.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278090",
+         "label" : "SRR11278090",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278090. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278090.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278091",
+         "label" : "SRR11278091",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278091. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278091.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278092",
+         "label" : "SRR11278092",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278092. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278092.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278164",
+         "label" : "SRR11278164",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278164. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278164.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278165",
+         "label" : "SRR11278165",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278165. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278165.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278166",
+         "label" : "SRR11278166",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278166. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278166.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278167",
+         "label" : "SRR11278167",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278167. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278167.vcf.gz"
+      },"
+    
+      {
+         "category" : "Variants",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "SRR11278168",
+         "label" : "SRR11278168",
+         "maxHeight" : 3000,
+         "metadata" : {
+            "about" : "Variation from the reference sequence for SRR11278168. For more information on the analysis that produced these data, see https://github.com/galaxyproject/SARS-CoV-2"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278168.vcf.gz"
+      },"
       {
          "compress" : 1,
          "key" : "Genes",
