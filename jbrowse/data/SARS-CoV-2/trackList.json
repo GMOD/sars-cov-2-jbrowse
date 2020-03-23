@@ -680,7 +680,7 @@
 	 "onClick" : {
            "iconClass" : "dijitIconDatabase",
            "action" : "newWindow",
-           "url" : "function(track,f) {var dbxref = f.get('dbxref'); dbxref = dbxref.substring(6);  return 'https://www.ncbi.nlm.nih.gov/gene/' + dbxref; }",
+           "url" : "function(track,f) {var dbxref = f.get('dbxref'); dbxref = dbxref.substring(7);  return 'https://www.ncbi.nlm.nih.gov/gene/' + dbxref; }",
            "label" : "Go to the gene page for {name} at GenBank"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
