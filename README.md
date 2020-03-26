@@ -53,5 +53,22 @@ to download the code and start up your docker instance.
 If you would like to build this container yourself, it's pretty easy.
 After installing Docker, checkout the GitHub repo:
 ```
-  $ git clone 
+  $ git clone https://github.com/GMOD/sars-cov-2-jbrowse.git
+  $ cd sars-cov-2-jbrowse
+  $ docker build --no-cache -t sars-cov-2-jbrowse -f ./Dockerfile .
+  $ docker run -d -p 8080:80 sars-cov-2-jbrowse
 ```
+and browse to http://localhost:8080/jbrowse.  Technically the `--no-cache` 
+isn't required here but will be necessary for future executions if
+you want to pull in changes in this repo.
+
+## Making changes for yourself or other
+
+That starts to get a little more complicated, but the best way to do that
+is to fork this repo, make the changes you'd like to make, modify the
+Dockerfile to pull your forked version and build away. If you'd like to see
+those change make it back into this repo, feel free to issue a pull request.
+
+## Making suggestions or corrections
+
+Please either file an issue at https://github.com/GMOD/sars-cov-2-jbrowse/issues or contact Scott Cain directly at scott@scottcain.net.
