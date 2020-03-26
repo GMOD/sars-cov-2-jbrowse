@@ -23,12 +23,12 @@ Thanks to Michael for writing much of the following.
 1) Download docker -- this is a useful way to write code so it can run many places and install appropriate dependencies that don't mess with code and packages already on the system.
 
 Here's how to do it on ubuntu:
-
+```
   $ sudo apt-get update
   $ sudo apt-get install docker-engine
   $ sudo service docker start
   $ sudo docker run hello-world
-
+```
 If this works then you get a little print out saying welcome to docker. If not, at the moment, Google is your friend.
 
 For Macs, install Docker from 
@@ -40,10 +40,10 @@ and Windows:
   https://docs.docker.com/docker-for-windows/install/
 
 2) Now type:
-
+```
   $ sudo docker pull gmod/sars-cov-2-jbrowse
   $ docker run -d -p 8080:80 gmod/sars-cov-2-jbrowse
-
+```
 to download the code and start up your docker instance.
 
 3) Point your web browser to http://localhost:8080/jbrowse/ 
@@ -52,5 +52,6 @@ to download the code and start up your docker instance.
 
 If you would like to build this container yourself, it's pretty easy.
 After installing Docker, checkout the GitHub repo:
-
+```
   $ git clone 
+```
