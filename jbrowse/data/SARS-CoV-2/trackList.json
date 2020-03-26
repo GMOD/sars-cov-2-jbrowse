@@ -117,7 +117,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903401.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -135,7 +135,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903402.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10903402.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -153,7 +153,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10971381.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR10971381.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -171,7 +171,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059940.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059940.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -189,7 +189,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059941.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059941.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -207,7 +207,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059942.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059942.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -225,7 +225,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059943.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059943.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -243,7 +243,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059944.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059944.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -261,7 +261,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059945.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059945.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -279,7 +279,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059946.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059946.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -297,7 +297,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059947.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11059947.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -315,7 +315,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140744.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140744.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -333,7 +333,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140746.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140746.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -351,7 +351,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140748.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140748.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -369,7 +369,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140750.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11140750.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -387,7 +387,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11177792.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11177792.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -405,7 +405,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241254.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241254.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -423,7 +423,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241255.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11241255.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -441,7 +441,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247075.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247075.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -459,7 +459,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247076.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247076.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -477,7 +477,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247077.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247077.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -495,7 +495,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247078.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11247078.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -513,7 +513,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278090.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278090.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -531,7 +531,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278091.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278091.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -549,7 +549,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278092.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278092.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -567,7 +567,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278164.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278164.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -585,7 +585,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278165.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278165.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -603,7 +603,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278166.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278166.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -621,7 +621,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278167.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278167.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -639,7 +639,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278168.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11278168.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -657,7 +657,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11314339.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11314339.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -675,7 +675,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11393704.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11393704.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -693,7 +693,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397714.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397714.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -711,7 +711,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397715.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397715.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -729,7 +729,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397716.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397716.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -747,7 +747,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397717.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397717.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -765,7 +765,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397718.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397718.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -783,7 +783,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397719.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397719.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -801,7 +801,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397720.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397720.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -819,7 +819,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397728.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397728.vcf.gz"
       },
        {
          "category" : "Variants",
@@ -837,7 +837,7 @@
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397729.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11397729.vcf.gz"
       },
       {
          "compress" : 1,

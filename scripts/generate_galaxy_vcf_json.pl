@@ -24,7 +24,7 @@ while (<DATA>) {
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/$_.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/$_.vcf.gz"
       },)
        , "\n";
 }
