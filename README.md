@@ -7,7 +7,7 @@ dynamically updated.
 
 This repo contains the configuration files for a SARS-CoV-2 JBrowse instance
 with several tracks as well as a Dockerfile for running that instance. A 
-running version of that intance is at
+running version of that instance is at
 
   http://covid19.jbrowse.org/
 
@@ -19,7 +19,7 @@ and the Docker image can be obtained from Docker Hub:
 
 Thanks to Michael Levy for writing much of the following.
 
-1) Download docker -- this is a useful way to write code so it can run many places and install appropriate dependencies that don't mess with code and packages already on the system.
+1) Download docker -- this is a useful way to write code so it can run many places and install appropriate dependencies that doesn't mess with code and packages already on the system.
 
 Here's how to do it on ubuntu:
 ```
@@ -50,7 +50,7 @@ to download the code and start up your docker instance.
 ## Building a Docker container yourself
 
 If you would like to build this container yourself, it's pretty easy.
-After installing Docker, checkout the GitHub repo:
+After installing Docker, checkout the GitHub repo and run a few `docker` commands:
 ```
   $ git clone https://github.com/GMOD/sars-cov-2-jbrowse.git
   $ cd sars-cov-2-jbrowse
