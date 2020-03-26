@@ -17,7 +17,7 @@ and the Docker image can be obtained from Docker Hub:
 
 ## Running from Docker
 
-Thanks to Michael Levy for writing much of the following.
+Thanks to Michael Levy (@mglevy) for writing much of the following.
 
 1) Download docker -- this is a useful way to write code so it can run many places and install appropriate dependencies that doesn't mess with code and packages already on the system.
 
