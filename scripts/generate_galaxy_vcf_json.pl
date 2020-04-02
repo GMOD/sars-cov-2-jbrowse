@@ -2,6 +2,7 @@
 use strict;
 use warnings;
 
+print "{tracks : [\n";
 
 while (<DATA>) {
     chomp;
@@ -25,7 +26,7 @@ while (<DATA>) {
 	    "color" : "function(f) {var af = f.get('AF'); af = af.values[0];  if (af < 0.05) {return 'gold';} return 'green';}"
          },
 	 "onClick" : {
-            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');eff = eff.values[0];var neweff = eff.replace('(', '</br>(');return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
+            "label" : "function(track,f) {var af = f.get('AF'); af = af.values[0]; var start = f.get('start');var eff = f.get('EFF');var neweff=''; if(typeof eff !== 'undefined' && typeof eff !== 'string') {eff = eff.values[0] ; neweff = eff.replace('(', '</br>(')} else {neweff=eff;} ;return '<b>Location:</b> '+start+'</br><b>Frequency:</b> '+af+'</br><b>Predicted effect:</b></br>'+neweff;}",
             "url" : "",
             "title" : "Variant data",
             "action" : "defaultDialog"
@@ -40,7 +41,7 @@ while (<DATA>) {
 }
 
 
-
+print "]}\n";
 
 
 
