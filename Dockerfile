@@ -13,7 +13,8 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
+#RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
+RUN git clone --single-branch --branch null_feature_label_mouseover https://github.com/GMOD/jbrowse.git
 RUN git clone https://github.com/gmod/sars-cov-2-jbrowse.git 
 RUN git clone https://github.com/bhofmei/jbplugin-screenshot.git
 RUN git clone https://github.com/scottcain/colorbycds.git
