@@ -1349,6 +1349,6 @@
          "unsafeMouseover" : true,
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/VCF/SRR11410532.vcf.gz"
-      },
+      }
       
 ]}
