@@ -7,14 +7,84 @@
       "url" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/names/"
    },
    "tracks" : [
-	   { 
-             "key" : "UCSC Signal Peptides",
-	     "label" : "UCSC Signal Peptides",
-	     "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-	     "type" : "CanvasFeatures",
+      { 
+         "key" : "Signal Peptides",
+	 "label" : "Signal Peptides",
+	 "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+	 "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+	 "category" : "UCSC/Uniprot",
+	 "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2LocSignal&hgTracksConfigPage=configure'>information page at UCSC</a>."
+	 },
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocSignalCov2.bb"
+      },
+      {
+         "key" : "Regions of interest",
+         "label" : "Regions of interest",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Interest&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipInterestCov2.bb"
+      },
+      {
+         "key" : "Transmembrane domains",
+         "label" : "Transmembrane domains",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2LocTransMemb&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocTransMembCov2.bb"
+      },
+      {
+         "key" : "Disulfide bonds",
+         "label" : "Disulfide bonds",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2DisulfBond&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipDisulfBondCov2.bb"
+      },
+      {
+         "key" : "Protein domains",
+         "label" : "Protein domains",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Domain&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipStructCov2.bb"
+      },
+      {
+         "key" : "Glycosylation or Phosphorylation sites",
+         "label" : "Glycosylation or Phosphorylation sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Modif&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+	 "comment" : "Note that there is a mistake in the url on the UCSC page",
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipModifCov2.bb"
       },
       {
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
