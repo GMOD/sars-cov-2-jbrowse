@@ -1,6 +1,6 @@
 {"tracks" : [
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR10903401",
          "label" : "SRR10903401",
@@ -26,7 +26,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059946",
          "label" : "SRR11059946",
@@ -52,7 +52,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11247075",
          "label" : "SRR11247075",
@@ -78,7 +78,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278166",
          "label" : "SRR11278166",
@@ -104,7 +104,7 @@
       },
       
        {
-         "category" : "Individual Variations/Melbourne, Australia",
+         "category" : "Variants from individ samples/Melbourne, Australia",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397718",
          "label" : "SRR11397718",
@@ -130,7 +130,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410533",
          "label" : "SRR11410533",
@@ -156,7 +156,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR10903402",
          "label" : "SRR10903402",
@@ -182,7 +182,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059947",
          "label" : "SRR11059947",
@@ -208,7 +208,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11247076",
          "label" : "SRR11247076",
@@ -234,7 +234,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278167",
          "label" : "SRR11278167",
@@ -260,7 +260,7 @@
       },
       
        {
-         "category" : "Individual Variations/Melbourne, Australia",
+         "category" : "Variants from individ samples/Melbourne, Australia",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397719",
          "label" : "SRR11397719",
@@ -286,7 +286,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410536",
          "label" : "SRR11410536",
@@ -312,7 +312,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR10971381",
          "label" : "SRR10971381",
@@ -338,7 +338,7 @@
       },
       
        {
-         "category" : "Individual Variations/Madison, WI, USA",
+         "category" : "Variants from individ samples/Madison, WI, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11140744",
          "label" : "SRR11140744",
@@ -364,7 +364,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11247077",
          "label" : "SRR11247077",
@@ -390,7 +390,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278168",
          "label" : "SRR11278168",
@@ -416,7 +416,7 @@
       },
       
        {
-         "category" : "Individual Variations/Melbourne, Australia",
+         "category" : "Variants from individ samples/Melbourne, Australia",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397720",
          "label" : "SRR11397720",
@@ -442,7 +442,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410538",
          "label" : "SRR11410538",
@@ -468,7 +468,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059940",
          "label" : "SRR11059940",
@@ -494,7 +494,7 @@
       },
       
        {
-         "category" : "Individual Variations/Madison, WI, USA",
+         "category" : "Variants from individ samples/Madison, WI, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11140746",
          "label" : "SRR11140746",
@@ -520,7 +520,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11247078",
          "label" : "SRR11247078",
@@ -546,7 +546,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11314339",
          "label" : "SRR11314339",
@@ -572,7 +572,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397728",
          "label" : "SRR11397728",
@@ -598,7 +598,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410540",
          "label" : "SRR11410540",
@@ -624,7 +624,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059941",
          "label" : "SRR11059941",
@@ -650,7 +650,7 @@
       },
       
        {
-         "category" : "Individual Variations/Madison, WI, USA",
+         "category" : "Variants from individ samples/Madison, WI, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11140748",
          "label" : "SRR11140748",
@@ -676,7 +676,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278090",
          "label" : "SRR11278090",
@@ -702,7 +702,7 @@
       },
       
        {
-         "category" : "Individual Variations/Unknown, USA",
+         "category" : "Variants from individ samples/Unknown, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11393704",
          "label" : "SRR11393704",
@@ -728,7 +728,7 @@
       },
       
        {
-         "category" : "Individual Variations/Melbourne, Australia",
+         "category" : "Variants from individ samples/Melbourne, Australia",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397729",
          "label" : "SRR11397729",
@@ -754,7 +754,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410538",
          "label" : "SRR11410538",
@@ -780,7 +780,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410541",
          "label" : "SRR11410541",
@@ -806,7 +806,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059942",
          "label" : "SRR11059942",
@@ -832,7 +832,7 @@
       },
       
        {
-         "category" : "Individual Variations/Madison, WI, USA",
+         "category" : "Variants from individ samples/Madison, WI, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11140750",
          "label" : "SRR11140750",
@@ -858,7 +858,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278091",
          "label" : "SRR11278091",
@@ -884,7 +884,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397714",
          "label" : "SRR11397714",
@@ -910,7 +910,7 @@
       },
       
        {
-         "category" : "Individual Variations/Unknown, USA",
+         "category" : "Variants from individ samples/Unknown, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11409417",
          "label" : "SRR11409417",
@@ -936,7 +936,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410542",
          "label" : "SRR11410542",
@@ -962,7 +962,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059943",
          "label" : "SRR11059943",
@@ -988,7 +988,7 @@
       },
       
        {
-         "category" : "Individual Variations/Kathmandu, Nepal",
+         "category" : "Variants from individ samples/Kathmandu, Nepal",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11177792",
          "label" : "SRR11177792",
@@ -1014,7 +1014,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278092",
          "label" : "SRR11278092",
@@ -1040,7 +1040,7 @@
       },
       
        {
-         "category" : "Individual Variations/Melbourne, Australia",
+         "category" : "Variants from individ samples/Melbourne, Australia",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397715",
          "label" : "SRR11397715",
@@ -1066,7 +1066,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410528",
          "label" : "SRR11410528",
@@ -1092,7 +1092,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059944",
          "label" : "SRR11059944",
@@ -1118,7 +1118,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11241254",
          "label" : "SRR11241254",
@@ -1144,7 +1144,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278164",
          "label" : "SRR11278164",
@@ -1170,7 +1170,7 @@
       },
       
        {
-         "category" : "Individual Variations/Melbourne, Australia",
+         "category" : "Variants from individ samples/Melbourne, Australia",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397716",
          "label" : "SRR11397716",
@@ -1196,7 +1196,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410529",
          "label" : "SRR11410529",
@@ -1222,7 +1222,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11059945",
          "label" : "SRR11059945",
@@ -1248,7 +1248,7 @@
       },
       
        {
-         "category" : "Individual Variations/Wuhan, China",
+         "category" : "Variants from individ samples/Wuhan, China",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11241255",
          "label" : "SRR11241255",
@@ -1274,7 +1274,7 @@
       },
       
        {
-         "category" : "Individual Variations/Seattle, WA, USA",
+         "category" : "Variants from individ samples/Seattle, WA, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11278165",
          "label" : "SRR11278165",
@@ -1300,7 +1300,7 @@
       },
       
        {
-         "category" : "Individual Variations/Melbourne, Australia",
+         "category" : "Variants from individ samples/Melbourne, Australia",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11397717",
          "label" : "SRR11397717",
@@ -1326,7 +1326,7 @@
       },
       
        {
-         "category" : "Individual Variations/Salt Lake City, UT, USA",
+         "category" : "Variants from individ samples/Salt Lake City, UT, USA",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "SRR11410532",
          "label" : "SRR11410532",
