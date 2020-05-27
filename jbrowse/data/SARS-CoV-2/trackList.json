@@ -18,6 +18,10 @@
 	 "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2LocSignal&hgTracksConfigPage=configure'>information page at UCSC</a>."
 	 },
+	 "style" : {
+            "height": 8,
+            "showLabels" : false
+         },
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocSignalCov2.bb"
       },
       {
@@ -44,6 +48,10 @@
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2LocTransMemb&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
+	 "style" : {
+            "height": 8,
+            "showLabels" : false
+         },
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocTransMembCov2.bb"
       },
       {
@@ -56,6 +64,10 @@
          "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2DisulfBond&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+	 "style" : {
+            "height": 8,
+            "showLabels" : false
          },
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipDisulfBondCov2.bb"
       },
@@ -70,7 +82,7 @@
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Domain&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipStructCov2.bb"
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipDomainCov2.bb"
       },
       {
          "key" : "Glycosylation or Phosphorylation sites",
@@ -83,8 +95,92 @@
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Modif&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
-	 "comment" : "Note that there is a mistake in the url on the UCSC page",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipModifCov2.bb"
+      },
+      {
+         "key" : "Other annotations",
+         "label" : "Other annotations",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Other&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipOtherCov2.bb"
+      },
+      {
+         "key" : "Repeats",
+         "label" : "Repeats",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Repeat&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+	 "style" : {
+            "height": 8,
+            "showLabels" : false
+         },
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipRepeatCov2.bb"
+      },
+      {
+         "key" : "Protease clevage sites",
+         "label" : "Protease clevage sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Uniprot",
+         "metadata" : {
+            "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipProtease&hgTracksConfigPage=configure'>information page at UCSC</a>."
+         },
+         "style" : {
+            "height": 8,
+            "showLabels" : false
+         },
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/protease_sites.bb"
+      },
+      {
+         "key" : "Bat coronaviruses",
+	 "label" : "Bat coronaviruses",
+	 "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Conservation",
+	 "metadata" : {
+         "about" : "Data for sequence conservation for 44 coronaviruses circulating in bats. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP44way/'>information page at UCSC</a>."
+         },
+	 "style" : {
+            "height" : 20,
+            "pos_color"  : "grey"
+         },
+	 "max_score" : 5,
+         "min_score" : 0,
+	 "urlTemplate" : "http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP44way/wuhCor1.phyloP44way.bw"
+      },
+{
+         "key" : "Vertibrate coronaviruses",
+         "label" : "Vertibrate coronaviruses",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "category" : "UCSC/Conservation",
+         "metadata" : {
+         "about" : "Data for sequence conservation for 119 coronaviruses circulating in vertibrates. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/'>information page at UCSC</a>."
+         },
+         "style" : {
+            "height" : 20,
+            "pos_color"  : "grey"
+         },
+	 "max_score" : 20,
+         "min_score" : 0,
+         "urlTemplate" : "http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/wuhCor1.phyloP119way.bw"
       },
       {
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
