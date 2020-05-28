@@ -13,8 +13,8 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-RUN git clone --single-branch --branch sars-specific https://github.com/GMOD/jbrowse.git
-#RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
+#RUN git clone --single-branch --branch sars-specific https://github.com/GMOD/jbrowse.git
+RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 RUN git clone https://github.com/gmod/sars-cov-2-jbrowse.git 
 RUN git clone https://github.com/bhofmei/jbplugin-screenshot.git
 RUN git clone https://github.com/scottcain/colorbycds.git
