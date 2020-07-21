@@ -17,7 +17,8 @@ NC_045512.2	RefSeq	mature_protein_region	11843	12091	.	+	.	Name=YP_009725303.1;I
 NC_045512.2	RefSeq	mature_protein_region	12092	12685	.	+	.	Name=YP_009725304.1;ID=id-YP_009724389.1:3943..4140;Note=produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742615.1
 NC_045512.2	RefSeq	mature_protein_region	12686	13024	.	+	.	Name=YP_009725305.1;ID=id-YP_009724389.1:4141..4253;Note=ssRNA-binding protein%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742616.1
 NC_045512.2	RefSeq	mature_protein_region	13025	13441	.	+	.	Name=YP_009725306.1;ID=id-YP_009724389.1:4254..4392;Note=nsp10_CysHis%3B formerly known as growth-factor-like protein (GFL)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742617.1
-NC_045512.2	RefSeq	mature_protein_region	13442	13468	.	+	.	Name=YP_009725307.1;ID=id-YP_009724389.1:4393..5324;Note=nsp12%3B NiRAN and RdRp%3B produced by pp1ab only;gbkey=Prot;Alias=YP_009725312.1
+NC_045512.2	RefSeq	mature_protein_region	13442	13468	.	+	.	Name=YP_009725307.1;ID=id-YP_009724389.1:4393..5324;Note=nsp12%3B NiRAN and RdRp%3B produced by pp1ab only;gbkey=Prot
+NC_045512.2	RefSeq	mature_protein_region	13442	13480	.	+	.	Name=YP_009725312.1;ID=id-YP_009725295.1:4393..4405;Note=produced by pp1a only;gbkey=Prot
 NC_045512.2	RefSeq	mature_protein_region	13468	16236	.	+	.	Name=YP_009725307.1;ID=id-YP_009724389.1:4393..5324;Note=nsp12%3B NiRAN and RdRp%3B produced by pp1ab only;gbkey=Prot
 NC_045512.2	RefSeq	mature_protein_region	16237	18039	.	+	.	Name=YP_009725308.1;ID=id-YP_009724389.1:5325..5925;Note=nsp13_ZBD%2C nsp13_TB%2C and nsp_HEL1core%3B zinc-binding domain (ZD)%2C NTPase/helicase domain (HEL)%2C RNA 5'-triphosphatase%3B produced by pp1ab only;gbkey=Prot
 NC_045512.2	RefSeq	mature_protein_region	18040	19620	.	+	.	Name=YP_009725309.1;ID=id-YP_009724389.1:5926..6452;Note=nsp14A2_ExoN and nsp14B_NMT%3B produced by pp1ab only;gbkey=Prot
