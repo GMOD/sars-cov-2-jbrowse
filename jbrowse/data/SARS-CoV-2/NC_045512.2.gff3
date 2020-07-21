@@ -53,6 +53,8 @@ NC_045512.2	RefSeq	mature_protein_region	27894	28259	.	+	.	ID=id-YP_009724396.1:
 NC_045512.2	RefSeq	gene	28274	29533	.	+	.	ID=gene-GU280_gp10;Dbxref=GeneID:43740575;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=GU280_gp10
 NC_045512.2	RefSeq	CDS	28274	29533	.	+	0	ID=cds-YP_009724397.2;Parent=gene-GU280_gp10;Dbxref=Genbank:YP_009724397.2,GeneID:43740575;Name=YP_009724397.2;Note=ORF9%3B structural protein;gbkey=CDS;gene=N;locus_tag=GU280_gp10;product=nucleocapsid phosphoprotein;protein_id=YP_009724397.2
 NC_045512.2	RefSeq	mature_protein_region	28274	29533	.	+	.	ID=id-YP_009724397.2;gbkey=Prot;Note=nucleocapsid phosphoprotein;Name=YP_009724397.2
+NC_045512.2	UniProtKB	mature_protein_region	28284	28574	.	+	.	ID=P0DTD2;Name=P0DTD2;Note=The gene encoding this protein is included within the N gene (alternative ORF). Belongs to the coronavirus group 2 protein 9b family.
+NC_045512.2	UniProtKB	mature_protein_region	28734	28952	.	+	.	ID=P0DTD3;Name=P0DTD3;Note=Single-pass membrane protein 
 NC_045512.2	RefSeq	gene	29558	29674	.	+	.	ID=gene-GU280_gp11;Dbxref=GeneID:43740576;Name=ORF10;gbkey=Gene;gene=ORF10;gene_biotype=protein_coding;locus_tag=GU280_gp11
 NC_045512.2	RefSeq	CDS	29558	29674	.	+	0	ID=cds-YP_009725255.1;Parent=gene-GU280_gp11;Dbxref=Genbank:YP_009725255.1,GeneID:43740576;Name=YP_009725255.1;gbkey=CDS;gene=ORF10;locus_tag=GU280_gp11;product=ORF10 protein;protein_id=YP_009725255.1
 NC_045512.2	RefSeq	mature_protein_region	29558	29674	.	+	.	ID=id-YP_009725255.1:29558..29674;gbkey=Prot;Note=ORF10 protein;Name=YP_009725255.1
