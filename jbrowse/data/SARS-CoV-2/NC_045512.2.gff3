@@ -48,7 +48,7 @@ NC_045512.2	RefSeq	mature_protein_region	12686	13024	.	+	.	Name=YP_009725305.1;I
 NC_045512.2	.	polypeptide_region	13025	13441	.	+	.	Name=YP_009725306.1;ID=protein10;Note=nsp10_CysHis%3B formerly known as growth-factor-like protein (GFL)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742617.1
 NC_045512.2	RefSeq	mature_protein_region	13025	13441	.	+	.	Name=YP_009725306.1;ID=id-YP_009724389.1:4254..4392;Note=nsp10_CysHis%3B formerly known as growth-factor-like protein (GFL)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742617.1;Parent=protein10
 
-NC_045512.2	.	polypeptide_region	13442	16236	.	+	.	Name=YP_009725307.1;ID=protein11;Note=The line at 13468 marks the site of ribosome slippage, nsp12%3B NiRAN and RdRp%3B produced by pp1ab only;gbkey=Prot
+NC_045512.2	.	polypeptide_region	13442	16236	.	+	.	Name=YP_009725307.1;ID=protein11;Note=The line at 13468 marks the site of ribosome slippage%3B nsp12%3B NiRAN and RdRp%3B produced by pp1ab only;gbkey=Prot
 NC_045512.2	RefSeq	mature_protein_region	13442	13468	.	+	.	Name=YP_009725307.1;ID=id-YP_009724389.1:4393..5324;Note=nsp12%3B NiRAN and RdRp%3B produced by pp1ab only;gbkey=Prot;Parent=protein11
 NC_045512.2	RefSeq	mature_protein_region	13468	16236	.	+	.	Name=YP_009725307.1;ID=id-YP_009724389.1:4393..5324;Note=nsp12%3B NiRAN and RdRp%3B produced by pp1ab only;gbkey=Prot;Parent=protein11
 
