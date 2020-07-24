@@ -1,383 +1,385 @@
 {
    "dataset_id" : "SARS-CoV-2",
    "formatVersion" : 1,
-   "include" : ["ssr.json"],
+   "include" : [
+      "ssr.json"
+   ],
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/names/"
    },
    "tracks" : [
-      { 
+      {
+         "category" : "UCSC/Uniprot",
          "key" : "Signal Peptides",
-	 "label" : "Signal Peptides",
-	 "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-	 "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-	 "category" : "UCSC/Uniprot",
-	 "metadata" : {
+         "label" : "Signal Peptides",
+         "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2LocSignal&hgTracksConfigPage=configure'>information page at UCSC</a>."
-	 },
-	 "style" : {
-            "height": 8,
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "style" : {
+            "height" : 8,
             "showLabels" : false
          },
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocSignalCov2.bb"
       },
       {
+         "category" : "UCSC/Uniprot",
          "key" : "Regions of interest",
          "label" : "Regions of interest",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-         "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Interest&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipInterestCov2.bb"
       },
       {
+         "category" : "UCSC/Uniprot",
          "key" : "Transmembrane domains",
          "label" : "Transmembrane domains",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-         "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2LocTransMemb&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
-	 "style" : {
-            "height": 8,
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "style" : {
+            "height" : 8,
             "showLabels" : false
          },
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocTransMembCov2.bb"
       },
       {
+         "category" : "UCSC/Uniprot",
          "key" : "Disulfide bonds",
          "label" : "Disulfide bonds",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-         "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2DisulfBond&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
-	 "style" : {
-            "height": 8,
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "style" : {
+            "height" : 8,
             "showLabels" : false
          },
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipDisulfBondCov2.bb"
       },
       {
+         "category" : "UCSC/Uniprot",
          "key" : "Protein domains",
          "label" : "Protein domains",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-         "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Domain&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipDomainCov2.bb"
       },
       {
+         "category" : "UCSC/Uniprot",
          "key" : "Glycosylation or Phosphorylation sites",
          "label" : "Glycosylation or Phosphorylation sites",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-         "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Modif&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipModifCov2.bb"
       },
       {
+         "category" : "UCSC/Uniprot",
          "key" : "Other annotations",
          "label" : "Other annotations",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-         "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Other&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipOtherCov2.bb"
       },
       {
+         "category" : "UCSC/Uniprot",
          "key" : "Repeats",
          "label" : "Repeats",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
-         "type" : "CanvasFeatures",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Uniprot",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipCov2Repeat&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
-	 "style" : {
-            "height": 8,
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "style" : {
+            "height" : 8,
             "showLabels" : false
          },
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipRepeatCov2.bb"
-      },
-      {
-         "key" : "Protease clevage sites",
-         "label" : "Protease clevage sites",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipRepeatCov2.bb"
+      },
+      {
          "category" : "UCSC/Uniprot",
+         "key" : "Protease clevage sites",
+         "label" : "Protease clevage sites",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipProtease&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/protease_sites.bb"
       },
       {
+         "category" : "UCSC/Conservation",
          "key" : "Bat coronaviruses",
-	 "label" : "Bat coronaviruses",
-	 "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
-         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Conservation",
-	 "metadata" : {
-         "about" : "Data for sequence conservation for 44 coronaviruses circulating in bats. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP44way/'>information page at UCSC</a>."
-         },
-	 "style" : {
-            "height" : 20,
-            "pos_color"  : "grey"
-         },
-	 "max_score" : 5,
-         "min_score" : 0,
-	 "urlTemplate" : "http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP44way/wuhCor1.phyloP44way.bw"
-      },
-{
-         "key" : "Vertibrate coronaviruses",
-         "label" : "Vertibrate coronaviruses",
-         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
-         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
-         "unsafeMouseover" : true,
-         "unsafePopup" : true,
-         "category" : "UCSC/Conservation",
+         "label" : "Bat coronaviruses",
+         "max_score" : 5,
          "metadata" : {
-         "about" : "Data for sequence conservation for 119 coronaviruses circulating in vertibrates. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/'>information page at UCSC</a>."
+            "about" : "Data for sequence conservation for 44 coronaviruses circulating in bats. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP44way/'>information page at UCSC</a>."
          },
+         "min_score" : 0,
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "style" : {
             "height" : 20,
-            "pos_color"  : "grey"
+            "pos_color" : "grey"
          },
-	 "max_score" : 20,
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP44way/wuhCor1.phyloP44way.bw"
+      },
+      {
+         "category" : "UCSC/Conservation",
+         "key" : "Vertibrate coronaviruses",
+         "label" : "Vertibrate coronaviruses",
+         "max_score" : 20,
+         "metadata" : {
+            "about" : "Data for sequence conservation for 119 coronaviruses circulating in vertibrates. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/'>information page at UCSC</a>."
+         },
          "min_score" : 0,
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "height" : 20,
+            "pos_color" : "grey"
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
          "urlTemplate" : "http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/wuhCor1.phyloP119way.bw"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : " All",
          "label" : " All",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
-	 "style" : {
-            "height": 8,
-	    "showLabels" : false
-	 },
-	 "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-	 "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamples.vcf.gz"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "A1a",
          "label" : "A1a",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
-	 "style" : {
-            "height": 8,
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-	 "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA1a.vcf.gz"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "A2",
          "label" : "A2",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
-	 "style" : {
-            "height": 8,
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA2.vcf.gz"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "A2a",
          "label" : "A2a",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
-	 "style" : {
-            "height": 8,
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA2a.vcf.gz"
       },
-            {
+      {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "A3",
          "label" : "A3",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA3.vcf.gz"
       },
-            {
+      {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "A6",
          "label" : "A6",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA6.vcf.gz"
       },
-     {
+      {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "A7",
          "label" : "A7",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA7.vcf.gz"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "B",
          "label" : "B",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB.vcf.gz"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "B1",
          "label" : "B1",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB1.vcf.gz"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "B2",
          "label" : "B2",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB2.vcf.gz"
       },
       {
+         "category" : "UCSC/NextStrain",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
          "key" : "B4",
          "label" : "B4",
          "metadata" : {
             "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "style" : {
-            "height": 8,
+            "height" : 8,
             "showLabels" : false
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "type" : "CanvasVariants",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "category" : "UCSC/NextStrain",
          "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB4.vcf.gz"
       },
       {
@@ -482,11 +484,11 @@
          "metadata" : {
             "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512."
          },
-	 "onClick" : {
-           "iconClass" : "dijitIconDatabase",
-           "action" : "newWindow",
-           "url" : "function(track,f) {var dbxref = f.get('dbxref'); dbxref = dbxref.substring(7);  return 'https://www.ncbi.nlm.nih.gov/gene/' + dbxref; }",
-           "label" : "Go to the gene page for {name} at GenBank"
+         "onClick" : {
+            "action" : "newWindow",
+            "iconClass" : "dijitIconDatabase",
+            "label" : "Go to the gene page for {name} at GenBank",
+            "url" : "function(track,f) {var dbxref = f.get('dbxref'); dbxref = dbxref.substring(7);  return 'https://www.ncbi.nlm.nih.gov/gene/' + dbxref; }"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -505,11 +507,11 @@
          "metadata" : {
             "about" : "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.  The color scheme for CDS features attempts to mimic the colors used at NextStrain: https://nextstrain.org/ncov?gmin=27585"
          },
-	 "onClick" : {
-           "iconClass" : "dijitIconDatabase",
-           "action" : "newWindow",
-           "url" : "https://www.ncbi.nlm.nih.gov/protein/{name}",
-           "label" : "Go to the protein page for {name} at GenBank"
+         "onClick" : {
+            "action" : "newWindow",
+            "iconClass" : "dijitIconDatabase",
+            "label" : "Go to the protein page for {name} at GenBank",
+            "url" : "https://www.ncbi.nlm.nih.gov/protein/{name}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -539,9 +541,9 @@
          "compress" : 1,
          "key" : "PCR Primers suggested by Jung et. al.",
          "label" : "PCR Primers suggested by Jung et. al.",
-	 "metadata" : {
+         "metadata" : {
             "about" : "Primers and probes suggested by Jung et. al.  See https://www.biorxiv.org/content/10.1101/2020.02.25.964775v1.full.pdf for more information."
-	 },
+         },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature"
@@ -554,14 +556,8 @@
          "compress" : 1,
          "key" : "Mature peptides (RefSeq)",
          "label" : "Mature peptides (RefSeq)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "about" : "Mature peptide regions for orf1ab came directly from a GFF download from NCBI at https://www.ncbi.nlm.nih.gov/nuccore/NC_045512. The remainder of the features in this track were inferred from the feature descriptions at the same page for NC_045512.  The resulting GFF was processed with the flatfile_to_json."
-         },
-         "style" : {
-            "className" : "feature",
-            "height" : 5,
-            "color" : "cyan"
          },
          "onClick" : {
             "action" : "newWindow",
@@ -569,9 +565,45 @@
             "label" : "Go to the protein page for {name} at GenBank",
             "url" : "function(track,f) {var name = f.get('Name');  return 'https://www.ncbi.nlm.nih.gov/protein/' + name; }"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "cyan",
+            "height" : 5
+         },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/Mature peptides (RefSeq)/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Mature peptides",
+         "label" : "All Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature"
+         },
+	 "style" : {
+            "className" : "feature",
+            "color" : "cyan",
+	    "borderWidth" : 2,
+	    "borderColor" : "black",
+            "height" : 7
+         },
+	 "onClick" : {
+            "action" : "newWindow",
+            "iconClass" : "dijitIconDatabase",
+            "label" : "Go to the protein page for {name} at GenBank",
+            "url" : "function(track,f) {var name = f.get('Name');  return 'https://www.ncbi.nlm.nih.gov/protein/' + name; }"
+         },
+	 "metadata" : {
+            "about" : "Data in this track are primarily derived from RefSeq GFF for NC_045512.2, with some additions noted in the header for the GFF file, at https://github.com/GMOD/sars-cov-2-jbrowse/blob/master/jbrowse/data/SARS-CoV-2/NC_045512.2.gff3."
+	 },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+	 "subParts" : "mature_protein_region",
+	 "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/All Genes/{refseq}/trackData.jsonz"
       }
    ]
 }

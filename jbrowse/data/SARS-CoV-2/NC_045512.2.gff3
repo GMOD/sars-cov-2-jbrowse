@@ -25,7 +25,7 @@ NC_045512.2	.	polypeptide_region	806	2719	.	+	.	Name=YP_009725298.1;ID=protein2;
 NC_045512.2	RefSeq	mature_protein_region	806	2719	.	+	.	Name=YP_009725298.1;ID=id-YP_009724389.1:181..818;Note=produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742609.1;Parent=protein2
 
 NC_045512.2	.	polypeptide_region	2720	8554	.	+	.	Name=YP_009725299.1;ID=protein3;Note=former nsp1%3B conserved domains are: N-terminal acidic (Ac)%2C predicted phosphoesterase%2C papain-like proteinase%2C Y-domain%2C transmembrane domain 1 (TM1)%2C adenosine diphosphate-ribose 1''-phosphatase (ADRP)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742610.1
-NC_045512.2	RefSeq	mature_protein_region	2720	8554	.	+	.	Name=YP_009725299.1;ID=id-YP_009724389.1:819..2763;Note=former nsp1%3B conserved domains are: N-terminal acidic (Ac)%2C predicted phosphoesterase%2C papain-like proteinase%2C Y-domain%2C transmembrane domain 1 (TM1)%2C adenosine diphosphate-ribose 1''-phosphatase (ADRP)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742610.1;ID=protein3
+NC_045512.2	RefSeq	mature_protein_region	2720	8554	.	+	.	Name=YP_009725299.1;ID=id-YP_009724389.1:819..2763;Note=former nsp1%3B conserved domains are: N-terminal acidic (Ac)%2C predicted phosphoesterase%2C papain-like proteinase%2C Y-domain%2C transmembrane domain 1 (TM1)%2C adenosine diphosphate-ribose 1''-phosphatase (ADRP)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742610.1;Parent=protein3
 
 NC_045512.2	.	polypeptide_region	8555	10054	.	+	.	Name=YP_009725300.1;ID=protein4;Note=nsp4B_TM%3B contains transmembrane domain 2 (TM2)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742611.1
 NC_045512.2	RefSeq	mature_protein_region	8555	10054	.	+	.	Name=YP_009725300.1;ID=id-YP_009724389.1:2764..3263;Note=nsp4B_TM%3B contains transmembrane domain 2 (TM2)%3B produced by both pp1a and pp1ab;gbkey=Prot;Alias=YP_009742611.1;Parent=protein4
@@ -128,7 +128,7 @@ NC_045512.2	.	polypeptide_region	28284	28574	.	+	.	ID=protein26;Name=P0DTD2;Note
 NC_045512.2	UniProtKB	mature_protein_region	28284	28574	.	+	.	ID=P0DTD2;Name=P0DTD2;Note=The gene encoding this protein is included within the N gene (alternative ORF). Belongs to the coronavirus group 2 protein 9b family.;Parent=protein26
 
 NC_045512.2	.	polypeptide_region	28734	28952	.	+	.	ID=protein27;Name=P0DTD3;Note=Single-pass membrane protein 
-NC_045512.2	UniProtKB	mature_protein_region	28734	28952	.	+	.	ID=P0DTD3;Name=P0DTD3;Note=Single-pass membrane protein;Parent=protein27 
+NC_045512.2	UniProtKB	mature_protein_region	28734	28952	.	+	.	ID=P0DTD3;Name=P0DTD3;Note=Single-pass membrane protein;Parent=protein27
 
 NC_045512.2	RefSeq	gene	29558	29674	.	+	.	ID=gene-GU280_gp11;Dbxref=GeneID:43740576;Name=ORF10;gbkey=Gene;gene=ORF10;gene_biotype=protein_coding;locus_tag=GU280_gp11
 NC_045512.2	RefSeq	CDS	29558	29674	.	+	0	ID=cds-YP_009725255.1;Parent=gene-GU280_gp11;Dbxref=Genbank:YP_009725255.1,GeneID:43740576;Name=YP_009725255.1;gbkey=CDS;gene=ORF10;locus_tag=GU280_gp11;product=ORF10 protein;protein_id=YP_009725255.1
