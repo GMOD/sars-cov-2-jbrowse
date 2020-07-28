@@ -5,13 +5,15 @@
 # Note from Scott Cain, 2020-07-20
 #   Removed redundant mature_protein_region features, adding their IDs as alias
 #      to the identical feature that remains
-# Note from Scott Cain, 2020-07023
+# Note from Scott Cain, 2020-07-23
 #   Adding parent polypeptide_region feature for all proteins. The reason is 
 #      two-fold:
 #          1. It allows the protein that is produced by ribosome slippage to
 #          be displayed linked together, and
 #          2. It allows the features to be displayed in https://github.com/GMOD/GenomeFeatureComponent
 #          which expects two-level features.
+# Note from Scott Cain, 2020-07-28
+#   Changed the 'gene' attribute for YP_009725295.1 to make it 'ORF1a' to help distinguish
 NC_045512.2	RefSeq	region	1	29903	.	+	.	ID=NC_045512.2:1..29903;Dbxref=taxon:2697049;collection-date=Dec-2019;country=China;gb-acronym=SARS-CoV2;gbkey=Src;genome=genomic;isolate=Wuhan-Hu-1;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Wuhan seafood market pneumonia virus
 NC_045512.2	RefSeq	five_prime_UTR	1	265	.	+	.	ID=id-NC_045512.2:1..265;gbkey=5'UTR
 NC_045512.2	RefSeq	gene	266	21555	.	+	.	ID=gene-GU280_gp01;Dbxref=GeneID:43740578;Name=ORF1ab;gbkey=Gene;gene=ORF1ab;gene_biotype=protein_coding;locus_tag=GU280_gp01
@@ -67,9 +69,9 @@ NC_045512.2	RefSeq	mature_protein_region	19621	20658	.	+	.	Name=YP_009725310.1;I
 NC_045512.2	.	polypeptide_region	20659	21552	.	+	.	Name=YP_009725311.1;ID=protein16;Note=nsp16_OMT%3B 2'-o-MT%3B produced by pp1ab only;gbkey=Prot
 NC_045512.2	RefSeq	mature_protein_region	20659	21552	.	+	.	Name=YP_009725311.1;ID=id-YP_009724389.1:6799..7096;Note=nsp16_OMT%3B 2'-o-MT%3B produced by pp1ab only;gbkey=Prot;Parent=protein16
 
-NC_045512.2	RefSeq	CDS	266	13483	.	+	0	ID=cds-YP_009725295.1;Parent=gene-GU280_gp01;Dbxref=Genbank:YP_009725295.1,GeneID:43740578;Name=YP_009725295.1;Note=pp1a;gbkey=CDS;gene=ORF1ab;locus_tag=GU280_gp01;product=ORF1a polyprotein;protein_id=YP_009725295.1
-NC_045512.2	RefSeq	stem_loop	13476	13503	.	+	.	ID=id-GU280_gp01;Dbxref=GeneID:43740578;function=Coronavirus frameshifting stimulation element stem-loop 1;gbkey=stem_loop;gene=ORF1ab;inference=COORDINATES: profile:Rfam-release-14.1:RF00507%2CInfernal:1.1.2;locus_tag=GU280_gp01
-NC_045512.2	RefSeq	stem_loop	13488	13542	.	+	.	ID=id-GU280_gp01-2;Dbxref=GeneID:43740578;function=Coronavirus frameshifting stimulation element stem-loop 2;gbkey=stem_loop;gene=ORF1ab;inference=COORDINATES: profile:profile:Rfam-release-14.1:RF00507%2CInfernal:1.1.2;locus_tag=GU280_gp01
+NC_045512.2	RefSeq	CDS	266	13483	.	+	0	ID=cds-YP_009725295.1;Parent=gene-GU280_gp01;Dbxref=Genbank:YP_009725295.1,GeneID:43740578;Name=YP_009725295.1;Note=pp1a;gbkey=CDS;gene=ORF1a;locus_tag=GU280_gp01;product=ORF1a polyprotein;protein_id=YP_009725295.1
+NC_045512.2	RefSeq	stem_loop	13476	13503	.	+	.	ID=id-GU280_gp01;Dbxref=GeneID:43740578;function=Coronavirus frameshifting stimulation element stem-loop 1;gbkey=stem_loop;gene=ORF1a;inference=COORDINATES: profile:Rfam-release-14.1:RF00507%2CInfernal:1.1.2;locus_tag=GU280_gp01
+NC_045512.2	RefSeq	stem_loop	13488	13542	.	+	.	ID=id-GU280_gp01-2;Dbxref=GeneID:43740578;function=Coronavirus frameshifting stimulation element stem-loop 2;gbkey=stem_loop;gene=ORF1a;inference=COORDINATES: profile:profile:Rfam-release-14.1:RF00507%2CInfernal:1.1.2;locus_tag=GU280_gp01
 NC_045512.2	RefSeq	gene	21563	25384	.	+	.	ID=gene-GU280_gp02;Dbxref=GeneID:43740568;Name=S;gbkey=Gene;gene=S;gene_biotype=protein_coding;gene_synonym=spike glycoprotein;locus_tag=GU280_gp02
 NC_045512.2	RefSeq	CDS	21563	25384	.	+	0	ID=cds-YP_009724390.1;Parent=gene-GU280_gp02;Dbxref=Genbank:YP_009724390.1,GeneID:43740568;Name=YP_009724390.1;Note=structural protein%3B spike protein;gbkey=CDS;gene=S;locus_tag=GU280_gp02;product=surface glycoprotein;protein_id=YP_009724390.1
 
