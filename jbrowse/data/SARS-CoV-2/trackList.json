@@ -131,8 +131,8 @@
       },
       {
          "category" : "UCSC/Uniprot",
-         "key" : "Protease clevage sites",
-         "label" : "Protease clevage sites",
+         "key" : "Protease cleavage sites",
+         "label" : "Protease cleavage sites",
          "metadata" : {
             "about" : "Data from UniProt and prepared for display on the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://www.genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=838815831_fjZBJ1KZkzbjMAnW70r6QdelQn61&g=unipProtease&hgTracksConfigPage=configure'>information page at UCSC</a>."
          },
@@ -167,11 +167,11 @@
       },
       {
          "category" : "UCSC/Conservation",
-         "key" : "Vertibrate coronaviruses",
-         "label" : "Vertibrate coronaviruses",
+         "key" : "Vertebrate coronaviruses",
+         "label" : "Vertebrate coronaviruses",
          "max_score" : 20,
          "metadata" : {
-            "about" : "Data for sequence conservation for 119 coronaviruses circulating in vertibrates. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/'>information page at UCSC</a>."
+            "about" : "Data for sequence conservation for 119 coronaviruses circulating in vertebrates. Created for display in the UCSC Genome Browser.  For more information about how this data set was prepared, see the <a href='http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/'>information page at UCSC</a>."
          },
          "min_score" : 0,
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
