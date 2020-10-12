@@ -1,4 +1,5 @@
 {
+   "comment" : "These tracks were removed from trackList.json because UCSC is no longer serving this data. I preserved these track configs just in case someone would find them useful in the future.",
    "tracks" : [
       {
          "category" : "UCSC/NextStrain",
