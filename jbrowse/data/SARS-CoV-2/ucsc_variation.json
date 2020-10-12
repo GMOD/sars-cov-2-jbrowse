@@ -1,0 +1,202 @@
+{
+   "tracks" : [
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : " All",
+         "label" : " All",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamples.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "A1a",
+         "label" : "A1a",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA1a.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "A2",
+         "label" : "A2",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA2.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "A2a",
+         "label" : "A2a",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA2a.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "A3",
+         "label" : "A3",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA3.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "A6",
+         "label" : "A6",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA6.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "A7",
+         "label" : "A7",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesA7.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "B",
+         "label" : "B",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "B1",
+         "label" : "B1",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB1.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "B2",
+         "label" : "B2",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB2.vcf.gz"
+      },
+      {
+         "category" : "UCSC/NextStrain",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/Diamond",
+         "key" : "B4",
+         "label" : "B4",
+         "metadata" : {
+            "about" : "Data derived from NextStrain and displayed on the UCSC Genome Browser. Data for these tracks are coming directly from UCSC servers at https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/. For more infomation about these tracks, see the <a href='http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=840033753_siwhRKP6atS4zAGHBh5gXRmKiyIz&c=NC_045512v2&g=nextstrainSamples'>UCSC/NextStrain information page</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "style" : {
+            "height" : 8,
+            "showLabels" : false
+         },
+         "type" : "CanvasVariants",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/nextstrain/nextstrainSamplesB4.vcf.gz"
+      }
+   ]
+}
