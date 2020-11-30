@@ -356,29 +356,6 @@
       },
       {
          "compress" : 1,
-         "key" : "Mature peptides (RefSeq)",
-         "label" : "Mature peptides (RefSeq)",
-         "metadata" : {
-            "about" : "Mature peptide regions for orf1ab came directly from a GFF download from NCBI at https://www.ncbi.nlm.nih.gov/nuccore/NC_045512. The remainder of the features in this track were inferred from the feature descriptions at the same page for NC_045512.  The resulting GFF was processed with the flatfile_to_json."
-         },
-         "onClick" : {
-            "action" : "newWindow",
-            "iconClass" : "dijitIconDatabase",
-            "label" : "Go to the protein page for {name} at GenBank",
-            "url" : "function(track,f) {var name = f.get('Name');  return 'https://www.ncbi.nlm.nih.gov/protein/' + name; }"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature",
-            "color" : "cyan",
-            "height" : 5
-         },
-         "trackType" : "CanvasFeatures",
-         "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/tracks/Mature peptides (RefSeq)/{refseq}/trackData.jsonz"
-      },
-      {
-         "compress" : 1,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "key" : "Mature peptides",
          "label" : "All Genes",
