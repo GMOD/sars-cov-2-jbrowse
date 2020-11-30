@@ -397,7 +397,7 @@
             "borderWidth" : 2,
             "className" : "feature",
             "color" : "cyan",
-            "description" : "function(f) {var name=f.get('protein_name'); var note = f.get('note');return name + note;}",
+            "description" : "function(f) {var name=f.get('protein_name'); var note = f.get('note');return name ? name + '; ' + note : note;}",
             "height" : 7
          },
          "subParts" : "mature_protein_region",
