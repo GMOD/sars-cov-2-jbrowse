@@ -10,7 +10,7 @@
    },
    "tracks" : [
       {
-         "category" : "UCSC",
+         "category" : "UCSC/Other",
          "key" : "Crowd sourced annotations",
          "label" : "Crowd sourced annotations",
          "metadata" : {
