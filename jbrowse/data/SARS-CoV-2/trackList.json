@@ -14,7 +14,7 @@
          "key" : "Crowd sourced annotations",
          "label" : "Crowd sourced annotations",
          "metadata" : {
-            "about" : "These annotations are provided by people in the community and are updated on a daily basis by the staff at the UCSC Genome Browser. For more information on how this works, see <a href=''https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=964789411_Dx02mdF71mqfaL8arKFW3ATS0Va0&c=NC_045512v2&g=publicAnnots>the settings page for this track at UCSC.</a>."
+            "about" : "These annotations are provided by people in the community and are updated on a daily basis by the staff at the UCSC Genome Browser. For more information on how this works, see <a href='https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=964789411_Dx02mdF71mqfaL8arKFW3ATS0Va0&c=NC_045512v2&g=publicAnnots'>the settings page for this track at UCSC.</a>."
          },
          "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
          "style" : {
