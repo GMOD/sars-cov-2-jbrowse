@@ -24,7 +24,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/bbi/public.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/public.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -41,7 +41,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocSignalCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipLocSignalCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -54,7 +54,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipInterestCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipInterestCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -71,7 +71,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipLocTransMembCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipLocTransMembCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -88,7 +88,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipDisulfBondCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipDisulfBondCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -101,7 +101,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipDomainCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipDomainCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -114,7 +114,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipModifCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipModifCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -127,7 +127,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipOtherCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipOtherCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -144,7 +144,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/unipRepeatCov2.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/unipRepeatCov2.bb"
       },
       {
          "category" : "UCSC/Uniprot",
@@ -161,7 +161,7 @@
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/uniprot/protease_sites.bb"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/protease_sites.bb"
       },
       {
          "category" : "UCSC/Conservation",
@@ -180,7 +180,7 @@
          "type" : "JBrowse/View/Track/Wiggle/XYPlot",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP44way/wuhCor1.phyloP44way.bw"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/wuhCor1.phyloP44way.bw"
       },
       {
          "category" : "UCSC/Conservation",
@@ -199,7 +199,7 @@
          "type" : "JBrowse/View/Track/Wiggle/XYPlot",
          "unsafeMouseover" : true,
          "unsafePopup" : true,
-         "urlTemplate" : "https://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/phyloP119way/wuhCor1.phyloP119way.bw"
+         "urlTemplate" : "https://s3.amazonaws.com/gmod-genomes-of-interest/jbrowse/data/SARS-CoV-2/UCSC/wuhCor1.phyloP119way.bw"
       },
       {
          "category" : "Reference sequence",
