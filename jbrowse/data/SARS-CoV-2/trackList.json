@@ -36,7 +36,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
          "style" : {
             "height" : 8,
-            "color" : "function(f) {var date = f.get('seq_date');var year = date.substring(0,2);var month = date.substring(3,5); if (year==20 && month < 6) {return '#1901F5';} if (year == 20 && month < 9) {return '#75147C';} return '#EA3323';}"
+            "color" : "function(f) {var date = f.get('seq_date');var pieces  = date.split('-'); var year = pieces[0]; var month = pieces[1]; if ((year==20 || year==2020) && month < 6) {return '#1901F5';} if ((year==2020 ||year == 20) && month < 9) {return '#75147C';} return '#EA3323';}"
          },
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
