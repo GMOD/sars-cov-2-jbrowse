@@ -27,6 +27,24 @@
          "urlTemplate" : "http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/bbi/public.bb"
       },
       {
+         "category" : "UCSC/Other",
+         "key" : "Spike mutations",
+         "label" : "Spike mutations",
+         "metadata" : {
+            "about" : "A collection of annotated spike mutations, curated by <a href='https://neherlab.org/emma-hodcroft.html'>Emma B. Hodcroft</a>, Institute of Social and Preventive Medicine, University of Bern, Switzerland and at bigbed file provided by the folks at the UCSC Genome Browser. The color scheme matches that of the UCSC Genome Browser: Blue for oldest variants (Winter/Spring 2020), Purple for Summer, 2020 and red for newest (Fall, 2020 and Winter 2021). For more information on this data, see <a href='https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=1020049279_1KPz36MB4azAKZGBEaop3DIiKpyZ&c=NC_045512v2&g=spikeMuts'>the settings page for this track at UCSC.</a>"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
+         "style" : {
+            "height" : 8,
+            "borderColor" : "function(f) {var date = f.get('seq_date');var pieces  = date.split('-'); var year = pieces[0]; var month = pieces[1]; if ((year==20 || year==2020) && month < 6) {return '#1901F5';} if ((year==2020 ||year == 20) && month < 9) {return '#75147C';} return '#EA3323';}",
+            "color" : "function(f) {var date = f.get('seq_date');var pieces  = date.split('-'); var year = pieces[0]; var month = pieces[1]; if ((year==20 || year==2020) && month < 6) {return '#1901F5';} if ((year==2020 ||year == 20) && month < 9) {return '#75147C';} return '#EA3323';}"
+         },
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "http://hgdownload.soe.ucsc.edu/gbdb/wuhCor1/spikeMuts/spikeMuts.bb"
+      },
+      {
          "category" : "UCSC/Uniprot",
          "key" : "Signal Peptides",
          "label" : "Signal Peptides",
