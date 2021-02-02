@@ -31,7 +31,7 @@
          "key" : "Crowd sourced spike mutations",
          "label" : "Crowd sourced spike mutations",
          "metadata" : {
-            "about" : "A collection of annotated spike mutations, curated by Emma B. Hodcroft, Institute of Social and Preventive Medicine, University of Bern, Switzerland and at bigbed file provided by the folks at the UCSC Genome Browser. For more information on how this works, see <a href='https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=1020049279_1KPz36MB4azAKZGBEaop3DIiKpyZ&c=NC_045512v2&g=spikeMuts'>the settings page for this track at UCSC.</a>."
+            "about" : "A collection of annotated spike mutations, curated by <a href='https://neherlab.org/emma-hodcroft.html'>Emma B. Hodcroft</a>, Institute of Social and Preventive Medicine, University of Bern, Switzerland and at bigbed file provided by the folks at the UCSC Genome Browser. The color scheme matches that of the UCSC Genome Browser: Blue for oldest variants (Winter/Spring 2020), Purple for Summer, 2020 and red for newest (Fall, 2020 and Winter 2021). For more information on this data, see <a href='https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=1020049279_1KPz36MB4azAKZGBEaop3DIiKpyZ&c=NC_045512v2&g=spikeMuts'>the settings page for this track at UCSC.</a>."
          },
          "storeClass" : "JBrowse/Store/SeqFeature/BigBed",
          "style" : {
