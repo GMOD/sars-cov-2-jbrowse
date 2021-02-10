@@ -46,7 +46,7 @@
             "color" : "function(f) {var date = f.get('seq_date');var pieces  = date.split('-'); var year = pieces[0]; var month = pieces[1]; if ((year==20 || year==2020) && month < 6) {return '#1901F5';} if ((year==2020 ||year == 20) && month < 9) {return '#75147C';} return '#EA3323';}"
          },
          "onClick" : {
-            "label" : "function(f) {var f = this.feature; var br='</br>';var name = f.get('Name'); var notes = '<b>Name:</b> '+name +br; var start = f.get('start');var end = f.get('end');notes=notes+'<b>Position:</b> '+start+'..'+end+br; var clinical = f.get('clinical_notes'); notes = notes+'<b>Clinical notes:</b> '+clinical+br;var geography = f.get('geography_notes');notes=notes+'<b>Geography notes:</b> '+geography_notes+br;var date=f.get('seq_date');notes=notes+'<b>Sequence date:</b> '+seq_date+br; notes=notes+'Click for more info'; return notes; }",
+            "label" : "function(f) {var f = this.feature; var br='</br>';var name = f.get('Name'); var notes = '<b>Name:</b> '+name +br; var start = f.get('start');var end = f.get('end');notes=notes+'<b>Position:</b> '+start+'..'+end+br; var clinical = f.get('clinical_notes'); notes = notes+'<b>Clinical notes:</b> '+clinical+br;var geography = f.get('geography_notes');notes=notes+'<b>Geography notes:</b> '+geography+br;var date=f.get('seq_date');notes=notes+'<b>Sequence date:</b> '+seq_date+br; notes=notes+'Click for more info'; return notes; }",
             "title" : "{name}",
             "action" : "defaultDialog"
          },
