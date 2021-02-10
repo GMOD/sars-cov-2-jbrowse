@@ -22,10 +22,9 @@
             "color" : "green"
          },
          "onClick" : {
-    "label" : "function(f) {var f = this.feature; var br='</br>';var name = f.get('Name'); var notes = '<b>Name:</b> '+name +br; var pos = f.get('Position');notes=notes+'<b>Position:</b> '+pos+br; var extra_field0 = f.get('extra_field0'); notes = notes+'<b>Topic:</b> '+extra_field0+br;var extra_field1 = f.get('extra_field1');notes=notes+'<b>Details:</b> '+extra_field1; return notes; }",
-            "content" : "{variantsBalloon}",
+    "label" : "function(f) {var f = this.feature; var br='</br>';var name = f.get('Name'); var notes = '<b>Name:</b> '+name +br; var start = f.get('start');var end = f.get('end');notes=notes+'<b>Position:</b> '+start+'..'+end+br; var extra_field0 = f.get('extra_field0'); notes = notes+'<b>Topic:</b> '+extra_field0+br;var extra_field1 = f.get('extra_field1');notes=notes+'<b>Details:</b> '+extra_field1; return notes; }",
             "title" : "{name}",
-            "action" : "contentDialog"
+            "action" : "defaultDialog"
          },
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
