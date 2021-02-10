@@ -13,6 +13,7 @@
          "category" : "UCSC/Other",
          "key" : "Crowd sourced annotations",
          "label" : "Crowd sourced annotations",
+         "maxHeight" : 3000,
          "metadata" : {
             "about" : "These annotations are provided by people in the community and are updated on a daily basis by the staff at the UCSC Genome Browser. For more information on how this works, see <a href='https://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=964789411_Dx02mdF71mqfaL8arKFW3ATS0Va0&c=NC_045512v2&g=publicAnnots'>the settings page for this track at UCSC.</a>."
          },
@@ -22,7 +23,7 @@
             "color" : "green"
          },
          "onClick" : {
-    "label" : "function(f) {var f = this.feature; var br='</br>';var name = f.get('Name'); var notes = '<b>Name:</b> '+name +br; var start = f.get('start');var end = f.get('end');notes=notes+'<b>Position:</b> '+start+'..'+end+br; var extra_field0 = f.get('extra_field0'); notes = notes+'<b>Topic:</b> '+extra_field0+br;var extra_field1 = f.get('extra_field1');notes=notes+'<b>Details:</b> '+extra_field1; return notes; }",
+    "label" : "function(f) {var f = this.feature; var br='</br>';var name = f.get('Name'); var notes = '<b>Name:</b> '+name +br; var start = f.get('start');var end = f.get('end');notes=notes+'<b>Position:</b> '+start+'..'+end+br; var extra_field0 = f.get('extra_field0'); notes = notes+'<b>Topic:</b> '+extra_field0+br;var extra_field1 = f.get('extra_field1');notes=notes+'<b>Details:</b> '+extra_field1+br; notes=notes+'Click for more info'; return notes; }",
             "title" : "{name}",
             "action" : "defaultDialog"
          },
